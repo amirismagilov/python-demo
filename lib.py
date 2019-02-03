@@ -12,8 +12,10 @@ def bmi (weight, hight):
     >>> bmi(106, 1.68) # doctest: +ELLIPSIS
     37.55...
 
-    >>> bmi(120, 1.88)
-    33.95201448619285
+
+
+    # >>> bmi(120, 1.88)
+    # 33.95201448619285
     """
     result = weight / (hight ** 2)
     return result
